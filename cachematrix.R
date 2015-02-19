@@ -3,17 +3,17 @@
 ## 2015-02-19
 
 ## Example
-# Initialize cachable matrix X from matrix M
-# X will be set to a list of getters and setters
+# Initialize cacheable matrix X from matrix M 
 # X <- makeCacheMatrix(M)
+# X is set to a list of getters and setters
 # you can get the matrix by calling X$get()
 # to compute the inverse of a matrix for the first time use
 # cacheSolve(X)
-# next time you run cacheSolve(X) it will returned cached result
+# the next time you run cacheSolve(X) cached result is returned
  
 #### makeCacheMatrix(M)
-# X<-makeCacheMatrix(M) creates a cachable matrix X from matrix M
-# setter and getter are added for the matrix x
+# X<-makeCacheMatrix(M) creates a cacheable matrix X from matrix M
+# setter and getter are added for the matrix X
 # setter and getter for inversed matrix are also added
 # list of setters and getters is returned
 
